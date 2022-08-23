@@ -27,9 +27,9 @@ textbox.addEventListener("keyup", function (e) {
 //  2. do the data stuff with the API
 function ajaxCall(query) {
   const url =
-    "http://api.giphy.com/v1/gifs/search?q=" +
+    "https://api.giphy.com/v1/gifs/search?api_key=P5U1CQ8WeUsTnC8LRY5wDK1LsVRiwAmK&q=" +
     query +
-    "&api_key=P5U1CQ8WeUsTnC8LRY5wDK1LsVRiwAmK";
+    "&limit=50&offset=0&rating=g&lang=en";
 
   const giphyAjaxCall = new XMLHttpRequest(); //creates a request and assigns it to a variable
   giphyAjaxCall.open("GET", url); // opens the url
