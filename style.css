@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+/* container and its elements */
+.title{
+  margin: 0;
+  font-size: 90px;
+  color: rgb(66, 233, 66);
+
+  font-family: 'Rubik Burned', cursive;
+}
+.container {
+  /* width: 100%; */
+  padding-top: 20px;
+}
+.inputbox {
+  width: 80%;
+  height: 40px;
+  font-size: large;
+  border-radius: 5px;
+}
+.search {
+  background-color: rgb(66, 233, 66);
+  width: 10%;
+  height: 40px;
+  border: 2px solid rgb(83, 82, 82);
+  border-radius: 5px;
+
+  color: white;
+  font-weight: bold;
+}
+.search:hover {
+  cursor: pointer; /* to change a cursor mode use "cursor: ;"*/
+}
+
+/* gifs and its elements */
+.gifs {
+  width: 100%;
+}
+.gifBox {
+  width: 30%;
+  height: 250px;
+}
+.gifelement {
+  width: inherit;
+  height: auto;
+  margin: 10px;
+}
